@@ -45,3 +45,14 @@ h2 {
 p {
 	font-family: 'Roboto', sans-serif;
 }
+
+ul,
+li,
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}

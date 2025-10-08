@@ -1,0 +1,54 @@
+.burger-wrapper ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.burger-card {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	width: 165px;
+}
+
+.ratingFavorite {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0;
+	font-size: 16px;
+}
+
+.star {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.burger-card button {
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border: none;
+}
+
+.type {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+.name {
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.burgerImg {
+	inline-size: 125px;
+	aspect-ratio: 1;
+	object-fit: cover;
+	border-radius: 15px;
+	padding: 5px;
+}

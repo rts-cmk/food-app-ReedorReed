@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Navigation from '../components/nav/Navigation';
 import profileImage from '../assets/profile-image.png';
 import '../css/global.css';
 import '../css/home.css';
@@ -19,17 +18,23 @@ function Home() {
 	return (
 		<div className="wrapper">
 			<header>
-				<h1>Foodgo</h1>
-				<img src={profileImage} alt="profile picture" />
-				<h2>Order your favorite food</h2>
+				<figure>
+					<figcaption>
+						<h1 className="headerTitle">Foodgo</h1>
+					</figcaption>
+					<img
+						src={profileImage}
+						alt="profile picture"
+						className="profileImage"
+					/>
+				</figure>
+				<h2 className="subTitle">Order your favorite food</h2>
 			</header>
 			<main>
 				<Search />
+
 				<FoodCard burgers={burgerData} />
 			</main>
-			<footer>
-				<Navigation />
-			</footer>
 		</div>
 	);
 }
