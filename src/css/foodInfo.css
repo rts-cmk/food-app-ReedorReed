@@ -1,0 +1,35 @@
+.infoWrapper {
+	padding: 20px;
+}
+
+.headWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.spicyWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.spicyScaleImg {
+	height: 70px;
+	width: 170px;
+}
+
+.portionBtns {
+	display: flex;
+}
+
+.footerWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.amount {
+	height: 70px;
+	width: 104px;
+	background-color: #ef2a39;
+	color: #fff;
+	text-align: center;
+}
